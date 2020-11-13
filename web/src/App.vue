@@ -4,31 +4,50 @@
         app
         permanent
         expand-on-hover
-        absolute
-        disable-resize-watcher
         width="100"
       >
         <v-list
           nav
-          dense
         >
           <v-list-item
             link
             to="/"
           >
             <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
+              <v-icon>
+                mdi-home
+              </v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Home</v-list-item-title>
+            <v-list-item>
+              Home
+            </v-list-item>
           </v-list-item>
           <v-list-item
             link
             to="/about"
           >
             <v-list-item-icon>
-              <v-icon>mdi-poll</v-icon>
+              <v-icon>
+                mdi-poll
+              </v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Stats</v-list-item-title>
+            <v-list-item>
+              Stats
+            </v-list-item>
+          </v-list-item>
+          <v-list-item
+            link
+            to="/career"
+          >
+            <v-list-item-icon>
+              <v-icon
+              >
+                mdi-altimeter
+              </v-icon>
+            </v-list-item-icon>
+            <v-list-item>
+              Career
+            </v-list-item>
           </v-list-item>
         </v-list>
       </v-navigation-drawer>
